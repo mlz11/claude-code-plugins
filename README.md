@@ -24,9 +24,9 @@ Claude Code plugin marketplace by [mlz11](https://github.com/mlz11).
 
 ## Available Plugins
 
-| Plugin | Description |
-|---|---|
-| **swimlanes** | Generate sequence diagrams using [Swimlanes.io](https://swimlanes.io) syntax |
+| Plugin | Platform | Description |
+|---|---|---|
+| **swimlanes** | Claude Code | Generate sequence diagrams from natural language using [Swimlanes.io](https://swimlanes.io) syntax |
 
 ## Example
 

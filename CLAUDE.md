@@ -12,6 +12,10 @@ plugins/<name>/                   # Each plugin is a subdirectory
   README.md                       # Plugin-level docs
 ```
 
+## Style
+
+- Never use em dashes (—). Use " - " (spaced hyphen) or parentheses instead.
+
 ## Conventions
 
 - Marketplace name: `mlz11-cc-marketplace`

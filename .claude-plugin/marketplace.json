@@ -1,7 +1,8 @@
 {
   "name": "mlz11-cc-marketplace",
   "owner": {
-    "name": "mlz11"
+    "name": "mlz11",
+    "email": "mahdi.lazraq.pro@gmail.com"
   },
   "metadata": {
     "description": "Claude Code plugin marketplace by mlz11",
@@ -11,12 +12,14 @@
     {
       "name": "swimlanes",
       "source": "./plugins/swimlanes",
-      "description": "Generate sequence diagrams using Swimlanes.io syntax",
+      "description": "Generate professional sequence diagrams directly from natural language descriptions using Swimlanes.io syntax. Describe any workflow (authentication flows, API interactions, microservice communication, CI/CD pipelines) and get correctly formatted diagram code instantly. Supports solid, dashed, and bold arrows, conditional branches, grouping, notes with markdown formatting, auto-numbering, and Font Awesome icons. Paste the output at swimlanes.io to render a polished, shareable diagram.",
       "version": "1.0.0",
       "author": {
-        "name": "mlz11"
+        "name": "mlz11",
+        "email": "mahdi.lazraq.pro@gmail.com"
       },
-      "homepage": "https://swimlanes.io",
+      "homepage": "https://github.com/mlz11/claude-code-plugins/tree/main/plugins/swimlanes",
+      "repository": "https://github.com/mlz11/claude-code-plugins",
       "license": "MIT",
       "keywords": ["sequence-diagram", "swimlanes", "diagram", "uml", "visualization"],
       "category": "visualization",

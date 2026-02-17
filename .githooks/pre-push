@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Validate that plugin.json and marketplace.json versions are in sync before pushing.
+
+echo "Validating plugin versions..."
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+if ! "$REPO_ROOT/scripts/validate-versions.sh"; then
+  echo ""
+  echo "Push blocked: fix version mismatches first."
+  echo "Use ./scripts/bump.sh <plugin> <major|minor|patch> to bump versions."
+  exit 1
+fi

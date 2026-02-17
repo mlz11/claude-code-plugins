@@ -1,6 +1,6 @@
 # Swimlanes
 
-Generate professional sequence diagrams directly from natural language descriptions using [Swimlanes.io](https://swimlanes.io) syntax.
+Generate sequence diagrams directly from natural language descriptions using [Swimlanes.io](https://swimlanes.io) syntax.
 
 **Platform:** Claude Code
 

@@ -1,19 +1,19 @@
-# Swimlanes.io — Claude Code Plugin Marketplace
+# mlz11-cc-marketplace
 
-Official [Swimlanes.io](https://swimlanes.io) plugins for [Claude Code](https://code.claude.com).
+Claude Code plugin marketplace by [mlz11](https://github.com/mlz11).
 
 ## Quick Start
 
 ### 1. Add the marketplace
 
 ```
-/plugin marketplace add swimlanes-io/claude-code-plugins
+/plugin marketplace add mlz11/claude-code-plugins
 ```
 
-### 2. Install the plugin
+### 2. Install a plugin
 
 ```
-/plugin install swimlanes@swimlanes-marketplace
+/plugin install swimlanes@mlz11-cc-marketplace
 ```
 
 ### 3. Use it
@@ -22,13 +22,11 @@ Official [Swimlanes.io](https://swimlanes.io) plugins for [Claude Code](https://
 /swimlanes user login flow with OAuth2
 ```
 
-Claude generates valid Swimlanes.io syntax you can paste directly at [swimlanes.io](https://swimlanes.io) to render.
-
 ## Available Plugins
 
 | Plugin | Description |
 |---|---|
-| **swimlanes** | Generate sequence diagrams using Swimlanes.io syntax |
+| **swimlanes** | Generate sequence diagrams using [Swimlanes.io](https://swimlanes.io) syntax |
 
 ## Example
 
@@ -64,22 +62,16 @@ Paste the output at [swimlanes.io](https://swimlanes.io) to get a rendered diagr
 
 ## Local Development
 
-Test the marketplace locally before installing:
-
-```bash
-cc --plugin-dir ./plugins/swimlanes
-```
-
-Or add the local marketplace:
+Test the marketplace locally:
 
 ```
 /plugin marketplace add ./path/to/claude-code-plugins
-/plugin install swimlanes@swimlanes-marketplace
+/plugin install swimlanes@mlz11-cc-marketplace
 ```
 
 ## Contributing
 
-Want to add a plugin to this marketplace? Open a PR with your plugin in `plugins/your-plugin-name/` following the [Claude Code plugin structure](https://code.claude.com/docs/en/plugins).
+Open a PR with your plugin in `plugins/your-plugin-name/` following the [Claude Code plugin structure](https://code.claude.com/docs/en/plugins).
 
 ## License
 

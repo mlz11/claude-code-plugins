@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Generate sequence diagrams using Swimlanes.io syntax",
   "author": {
-    "name": "Swimlanes.io",
-    "email": "hello@swimlanes.io",
-    "url": "https://swimlanes.io"
+    "name": "mlz11",
+    "url": "https://github.com/mlz11"
   },
   "homepage": "https://swimlanes.io",
   "license": "MIT",

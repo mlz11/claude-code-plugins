@@ -1,11 +1,10 @@
 {
-  "name": "swimlanes-marketplace",
+  "name": "mlz11-cc-marketplace",
   "owner": {
-    "name": "Swimlanes.io",
-    "email": "hello@swimlanes.io"
+    "name": "mlz11"
   },
   "metadata": {
-    "description": "Official Swimlanes.io plugins for Claude Code",
+    "description": "Claude Code plugin marketplace by mlz11",
     "version": "1.0.0"
   },
   "plugins": [
@@ -15,8 +14,7 @@
       "description": "Generate sequence diagrams using Swimlanes.io syntax",
       "version": "1.0.0",
       "author": {
-        "name": "Swimlanes.io",
-        "email": "hello@swimlanes.io"
+        "name": "mlz11"
       },
       "homepage": "https://swimlanes.io",
       "license": "MIT",

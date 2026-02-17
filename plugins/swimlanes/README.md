@@ -21,9 +21,8 @@ Claude generates valid Swimlanes.io syntax. Paste it at [swimlanes.io](https://s
 
 ## Use Cases
 
-### 1. Document authentication flows
-
-Visualize how users authenticate through your system, including token exchange, session management, and error paths.
+<details>
+<summary><strong>1. Document authentication flows</strong> - OAuth2 with token refresh and session expiry</summary>
 
 ```
 /swimlanes user login with OAuth2 including token refresh and session expiry
@@ -54,9 +53,10 @@ else: Refresh fails
 end
 ```
 
-### 2. Map microservice communication
+</details>
 
-Trace requests across distributed services to understand dependencies, failure modes, and data flow.
+<details>
+<summary><strong>2. Map microservice communication</strong> - order processing across payment, inventory, and notifications</summary>
 
 ```
 /swimlanes order processing through payment, inventory, and notification services
@@ -95,9 +95,10 @@ Order Service -> API Gateway: order response
 API Gateway -> Client: 201 Created
 ```
 
-### 3. Design CI/CD pipeline flows
+</details>
 
-Visualize build, test, and deployment pipelines to document your release process and rollback strategies.
+<details>
+<summary><strong>3. Design CI/CD pipeline flows</strong> - staging deployment, approval gate, and production rollback</summary>
 
 ```
 /swimlanes CI/CD pipeline with staging deployment, approval gate, and production rollback
@@ -133,6 +134,8 @@ else: Tests fail
   note: Fix and re-push
 end
 ```
+
+</details>
 
 ## More Information
 

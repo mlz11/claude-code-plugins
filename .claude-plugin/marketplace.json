@@ -12,7 +12,7 @@
     {
       "name": "swimlanes",
       "source": "./plugins/swimlanes",
-      "description": "Generate professional sequence diagrams directly from natural language descriptions using Swimlanes.io syntax. Describe any workflow (authentication flows, API interactions, microservice communication, CI/CD pipelines) and get correctly formatted diagram code instantly. Supports solid, dashed, and bold arrows, conditional branches, grouping, notes with markdown formatting, auto-numbering, and Font Awesome icons. Paste the output at swimlanes.io to render a polished, shareable diagram.",
+      "description": "Generate sequence diagrams directly from natural language descriptions using Swimlanes.io syntax. Describe any workflow (authentication flows, API interactions, microservice communication, CI/CD pipelines) and get correctly formatted diagram code instantly. Supports solid, dashed, and bold arrows, conditional branches, grouping, notes with markdown formatting, auto-numbering, and Font Awesome icons. Paste the output at swimlanes.io to render a polished, shareable diagram.",
       "version": "1.0.0",
       "author": {
         "name": "mlz11",

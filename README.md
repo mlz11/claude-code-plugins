@@ -28,38 +28,6 @@ Claude Code plugin marketplace by [mlz11](https://github.com/mlz11).
 |---|---|---|
 | **swimlanes** | Claude Code | Generate sequence diagrams from natural language using [Swimlanes.io](https://swimlanes.io) syntax |
 
-## Example
-
-```
-> /swimlanes API request with retry and circuit breaker
-
-title: API Request with Retry & Circuit Breaker
-
-Client -> CircuitBreaker: send request
-if: Circuit OPEN
-  CircuitBreaker -x Client: fail fast
-else: Circuit CLOSED
-  CircuitBreaker -> API: forward request
-  if: Success
-    API -> CircuitBreaker: 200 OK
-    CircuitBreaker -> Client: response
-  else: Failure (retry)
-    API -x CircuitBreaker: 500 Error
-    CircuitBreaker -> API: retry request
-    if: Retry succeeds
-      API -> CircuitBreaker: 200 OK
-      CircuitBreaker -> Client: response
-    else: Retry fails
-      API -x CircuitBreaker: 500 Error
-      note: Circuit transitions to OPEN
-      CircuitBreaker -x Client: service unavailable
-    end
-  end
-end
-```
-
-Paste the output at [swimlanes.io](https://swimlanes.io) to get a rendered diagram.
-
 ## Local Development
 
 Test the marketplace locally:

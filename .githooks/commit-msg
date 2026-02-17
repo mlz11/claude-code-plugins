@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Conventional Commits hook
+# Format: type(scope): description
+# Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
+
+commit_msg_file="$1"
+commit_msg=$(head -1 "$commit_msg_file")
+
+pattern="^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(.+\))?(!)?: .{1,}"
+
+if ! echo "$commit_msg" | grep -qE "$pattern"; then
+  echo "ERROR: Commit message does not follow Conventional Commits format."
+  echo ""
+  echo "  Format:  type(scope): description"
+  echo ""
+  echo "  Types:   feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert"
+  echo ""
+  echo "  Examples:"
+  echo "    feat: add new swimlanes plugin"
+  echo "    fix(swimlanes): correct syntax reference"
+  echo "    docs: update README with install instructions"
+  echo "    feat!: breaking change to marketplace schema"
+  echo ""
+  echo "  Your message: $commit_msg"
+  exit 1
+fi

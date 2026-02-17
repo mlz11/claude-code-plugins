@@ -1,0 +1,13 @@
+{
+  "name": "swimlanes",
+  "version": "1.0.0",
+  "description": "Generate sequence diagrams using Swimlanes.io syntax",
+  "author": {
+    "name": "Swimlanes.io",
+    "email": "hello@swimlanes.io",
+    "url": "https://swimlanes.io"
+  },
+  "homepage": "https://swimlanes.io",
+  "license": "MIT",
+  "keywords": ["sequence-diagram", "swimlanes", "diagram", "uml", "visualization"]
+}
